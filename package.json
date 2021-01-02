@@ -1,0 +1,37 @@
+{
+  "name": "workshop-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "start": "NODE_ENV=prod node app.js"
+ }, 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamahoque/workshop-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamahoque/workshop-testing/issues"
+  },
+  "homepage": "https://github.com/shamahoque/workshop-testing#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6",
+    "supertest": "^6.0.1"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node"
+ } 
+}
